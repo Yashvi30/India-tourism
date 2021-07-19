@@ -1,0 +1,377 @@
+import React from "react";
+import SliderCarousel from "./SliderCarousel";
+import Images from "../src/assets/image/img1.jpg";
+
+const Home = () => {
+  return (
+    <>
+      {/* carousel */}
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div className="col-md-10 col-10 mx-auto">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src={Images} class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src={Images} class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src={Images} class="d-block w-100" alt="..." />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* popular in India */}
+      <section class="gallery" id="gallery">
+        <h1 class="heading">Popular in INDIA</h1>
+        <div class="box-container">
+          <div class="box">
+            <img src={Images} alt="" />
+            <div class="content">
+              <h3>amazing places</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ducimus, tenetur.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src={Images} alt="" />
+            <div class="content">
+              <h3>amazing places</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ducimus, tenetur.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src={Images} alt="" />
+            <div class="content">
+              <h3>amazing places</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ducimus, tenetur.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src={Images} alt="" />
+            <div class="content">
+              <h3>amazing places</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ducimus, tenetur.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src={Images} alt="" />
+            <div class="content">
+              <h3>amazing places</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ducimus, tenetur.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src={Images} alt="" />
+            <div class="content">
+              <h3>amazing places</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ducimus, tenetur.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* slider carousel */}
+      <h1 class="sliderheading">Incredible</h1>
+      <SliderCarousel />
+      {/* blogs */}
+      <h1 class="blogheading">Blogs</h1>
+      <div class="container">
+        <div class="card">
+          <div class="card-header">
+            <img
+              src="https://c0.wallpaperflare.com/preview/483/210/436/car-green-4x4-jeep.jpg"
+              alt="rover"
+            />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-teal">Trips</span>
+            <h4>A day trip to Chittorgarh from Udaipur</h4>
+            <p>
+              Plan a one day trip to Chittorgarh Fort, when deciding on an
+              itinerary. The Chittorgarh Fort is the biggest fort in India, with
+              magnificent architecture and vibrant and exciting history.
+            </p>
+            <div class="user">
+              <img
+                src="https://yt3.ggpht.com/a/AGF-l7-0J1G0Ue0mcZMw-99kMeVuBmRxiPjyvIYONg=s900-c-k-c0xffffffff-no-rj-mo"
+                alt="user"
+              />
+              <div class="user-info">
+                <h5>July Dec</h5>
+                <small>2h ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img
+              src="https://www.newsbtc.com/wp-content/uploads/2020/06/mesut-kaya-LcCdl__-kO0-unsplash-scaled.jpg"
+              alt="ballons"
+            />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-purple">Popular</span>
+            <h4>Come Observe the Machattu Mamangam to be flabbergasted!</h4>
+            <p>
+              It is famous for its cultural events like Horse effigy, Chenda
+              melam, Elephant walk and so on...
+            </p>
+            <div class="user">
+              <img
+                src="https://lh3.googleusercontent.com/ogw/ADGmqu8sn9zF15pW59JIYiLgx3PQ3EyZLFp5Zqao906l=s32-c-mo"
+                alt="user"
+              />
+              <div class="user-info">
+                <h5>Eyup Ucmaz</h5>
+                <small>Yesterday</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img
+              src="https://images6.alphacoders.com/312/thumb-1920-312773.jpg"
+              alt="city"
+            />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-pink">News</span>
+            <h4>Post Covid - 19 : Changing Dynamics Of Travel</h4>
+            <p>
+              With the horrendous incidence of Covid 19 intrusion the whole
+              travel paradigm has changed. With the widespread occurrence of
+              this malicious virus we are changing all aspects of our lives.
+            </p>
+            <div class="user">
+              <img
+                src="https://studyinbaltics.ee/wp-content/uploads/2020/03/3799Ffxy.jpg"
+                alt="user"
+              />
+              <div class="user-info">
+                <h5>Carrie Brewer</h5>
+                <small>1w ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* blog ends */}
+      {/* timeline */}
+      <h1 class="timelineheading">Timeline</h1>
+      <div class="container">
+        <div class="main-timeline">
+          <div class="container">
+            <div class="main-timeline">
+              {/* <!-- start experience section--> */}
+              <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                  <div class="date-outer">
+                    <span class="date">
+                      <span class="month">2 Years</span>
+                      <span class="year">2013</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="timeline-content">
+                  <h5 class="title">Visual Art &amp; Design</h5>
+                  <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    efficitur ex sit amet massa scelerisque scelerisque. Aliquam
+                    erat volutpat. Aenean interdum finibus efficitur. Praesent
+                    dapibus dolor felis, eu ultrices elit molestie.
+                  </p>
+                </div>
+              </div>
+              {/* <!-- end experience section--> */}
+
+              {/* <!-- start experience section--> */}
+              <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                  <div class="date-outer">
+                    <span class="date">
+                      <span class="month">1 Years</span>
+                      <span class="year">2015</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="timeline-content">
+                  <h5 class="title">Product Designer</h5>
+                  <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    efficitur ex sit amet massa scelerisque scelerisque. Aliquam
+                    erat volutpat. Aenean interdum finibus efficitur. Praesent
+                    dapibus dolor felis, eu ultrices elit molestie.
+                  </p>
+                </div>
+              </div>
+              {/* <!-- end experience section--> */}
+
+              {/* <!-- start experience section--> */}
+              <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                  <div class="date-outer">
+                    <span class="date">
+                      <span class="month">2 Years</span>
+                      <span class="year">2016</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="timeline-content">
+                  <h5 class="title">Web Designer</h5>
+                  <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    efficitur ex sit amet massa scelerisque scelerisque. Aliquam
+                    erat volutpat. Aenean interdum finibus efficitur. Praesent
+                    dapibus dolor felis, eu ultrices elit molestie.
+                  </p>
+                </div>
+              </div>
+              {/* <!-- end experience section--> */}
+
+              {/* <!-- start experience section--> */}
+              <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                  <div class="date-outer">
+                    <span class="date">
+                      <span class="month">2 Years</span>
+                      <span class="year">2018</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="timeline-content">
+                  <h5 class="title">Graphic Designer</h5>
+                  <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    efficitur ex sit amet massa scelerisque scelerisque. Aliquam
+                    erat volutpat. Aenean interdum finibus efficitur. Praesent
+                    dapibus dolor felis, eu ultrices elit molestie.
+                  </p>
+                </div>
+              </div>
+              {/* <!-- end experience section--> */}
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="icon"></div>
+            <div class="date-content">
+              <div class="date-outer">
+                <span class="date">
+                  <span class="month">2 Years</span>
+                  <span class="year">2013</span>
+                </span>
+              </div>
+            </div>
+            <div class="timeline-content">
+              <h5 class="title">Visual Art &amp; Design</h5>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                efficitur ex sit amet massa scelerisque scelerisque. Aliquam
+                erat volutpat. Aenean interdum finibus efficitur. Praesent
+                dapibus dolor felis, eu ultrices elit molestie.
+              </p>
+            </div>
+          </div>
+          {/* <!-- end experience section--> */}
+
+          {/* <!-- start experience section--> */}
+          <div class="timeline">
+            <div class="icon"></div>
+            <div class="date-content">
+              <div class="date-outer">
+                <span class="date">
+                  <span class="month">1 Years</span>
+                  <span class="year">2015</span>
+                </span>
+              </div>
+            </div>
+            <div class="timeline-content">
+              <h5 class="title">Product Designer</h5>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                efficitur ex sit amet massa scelerisque scelerisque. Aliquam
+                erat volutpat. Aenean interdum finibus efficitur. Praesent
+                dapibus dolor felis, eu ultrices elit molestie.
+              </p>
+            </div>
+          </div>
+          {/* <!-- end experience section--> */}
+
+          {/* <!-- start experience section--> */}
+          <div class="timeline">
+            <div class="icon"></div>
+            <div class="date-content">
+              <div class="date-outer">
+                <span class="date">
+                  <span class="month">2 Years</span>
+                  <span class="year">2016</span>
+                </span>
+              </div>
+            </div>
+            <div class="timeline-content">
+              <h5 class="title">Web Designer</h5>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                efficitur ex sit amet massa scelerisque scelerisque. Aliquam
+                erat volutpat. Aenean interdum finibus efficitur. Praesent
+                dapibus dolor felis, eu ultrices elit molestie.
+              </p>
+            </div>
+          </div>
+          {/* <!-- end experience section--> */}
+
+          {/* <!-- start experience section--> */}
+          <div class="timeline">
+            <div class="icon"></div>
+            <div class="date-content">
+              <div class="date-outer">
+                <span class="date">
+                  <span class="month">2 Years</span>
+                  <span class="year">2018</span>
+                </span>
+              </div>
+            </div>
+            <div class="timeline-content">
+              <h5 class="title">Graphic Designer</h5>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                efficitur ex sit amet massa scelerisque scelerisque. Aliquam
+                erat volutpat. Aenean interdum finibus efficitur. Praesent
+                dapibus dolor felis, eu ultrices elit molestie.
+              </p>
+            </div>
+          </div>
+          {/* <!-- end experience section--> */}
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Home;
