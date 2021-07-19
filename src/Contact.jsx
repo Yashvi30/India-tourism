@@ -27,12 +27,12 @@ const Contact = () => {
     <>
       {onsubmit ? (
         <div className="queryform">
-          <div className="my-3">
-            <h1 className="text-center">Contact Us</h1>
+          <div className="my-10">
+            <h1 className="text-center">Get in touch!</h1>
           </div>
           <div className="container contact_div">
             <div className="row">
-              <div className="col-md-6 col-10 mx-auto">
+              <div className="col-md-12 col-10 mx-auto">
                 <form onSubmit={FormSubmit}>
                   <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">
