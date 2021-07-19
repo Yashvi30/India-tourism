@@ -1,6 +1,29 @@
 import React from "react";
 import SliderCarousel from "./SliderCarousel";
 import Images from "../src/assets/image/img1.jpg";
+import Images13 from "../src/assets/image/img13.jpg";
+import Images2 from "../src/assets/image/img2.jpg";
+import Images3 from "../src/assets/image/img3.jpg";
+import Images4 from "../src/assets/image/img4.jpg";
+import Images5 from "../src/assets/image/img5.jpg";
+import Images6 from "../src/assets/image/img6.jpg";
+import Images7 from "../src/assets/image/img7.jpg";
+import Images8 from "../src/assets/image/img8.jpg";
+import Images9 from "../src/assets/image/img9.jpg";
+import Images10 from "../src/assets/image/img10.jpg";
+import Images11 from "../src/assets/image/img11.jpg";
+import Images12 from "../src/assets/image/img12.jpg";
+// import Images from "../src/assets/image/img1.jpg";
+// import Images from "../src/assets/image/img1.jpg";
+import Kolkata from "../src/assets/image/kolkata.jpeg";
+import Mussoorie from "../src/assets/image/mussoorie.jpeg";
+import Varanasi from "../src/assets/image/varanasi.jpeg";
+import Kanpur from "../src/assets/image/kanpur.jpeg";
+import Jaipur from "../src/assets/image/jaipur.jpeg";
+import Patiala from "../src/assets/image/patiala.jpeg";
+import Nasik from "../src/assets/image/nasik.jpeg";
+import Pune from "../src/assets/image/pune.jpeg";
+import Mumbai from "../src/assets/image/mumbai.jpeg";
 
 const Home = () => {
   return (
@@ -17,10 +40,10 @@ const Home = () => {
               <img src={Images} class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src={Images} class="d-block w-100" alt="..." />
+              <img src={Nasik} class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src={Images} class="d-block w-100" alt="..." />
+              <img src={Mussoorie} class="d-block w-100" alt="..." />
             </div>
           </div>
         </div>
@@ -30,69 +53,69 @@ const Home = () => {
         <h1 class="heading">Popular in INDIA</h1>
         <div class="box-container">
           <div class="box">
-            <img src={Images} alt="" />
+            <img src={Images13} alt="" />
             <div class="content">
-              <h3>amazing places</h3>
-              <p>
+              <h3>Food</h3>
+              {/* <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Ducimus, tenetur.
-              </p>
+              </p> */}
             </div>
           </div>
           <div class="box">
-            <img src={Images} alt="" />
+            <img src={Images9} alt="" />
             <div class="content">
-              <h3>amazing places</h3>
-              <p>
+              <h3>Jama Masjid</h3>
+              {/* <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Ducimus, tenetur.
-              </p>
+              </p> */}
             </div>
           </div>
           <div class="box">
-            <img src={Images} alt="" />
+            <img src={Images4} alt="" />
             <div class="content">
-              <h3>amazing places</h3>
-              <p>
+              <h3>Crafts</h3>
+              {/* <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Ducimus, tenetur.
-              </p>
+              </p> */}
             </div>
           </div>
           <div class="box">
-            <img src={Images} alt="" />
+            <img src={Images5} alt="" />
             <div class="content">
-              <h3>amazing places</h3>
-              <p>
+              <h3>Konark temple</h3>
+              {/* <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Ducimus, tenetur.
-              </p>
+              </p> */}
             </div>
           </div>
           <div class="box">
-            <img src={Images} alt="" />
+            <img src={Images6} alt="" />
             <div class="content">
-              <h3>amazing places</h3>
-              <p>
+              <h3>Festivals</h3>
+              {/* <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Ducimus, tenetur.
-              </p>
+              </p> */}
             </div>
           </div>
           <div class="box">
-            <img src={Images} alt="" />
+            <img src={Images7} alt="" />
             <div class="content">
-              <h3>amazing places</h3>
-              <p>
+              <h3>Taj Mahal</h3>
+              {/* <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Ducimus, tenetur.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
       </section>
       {/* slider carousel */}
-      <h1 class="sliderheading">Incredible</h1>
+      <h1 class="sliderheading">Places to visit</h1>
       <SliderCarousel />
       {/* blogs */}
       <h1 class="blogheading">Blogs</h1>
@@ -180,13 +203,13 @@ const Home = () => {
       </div>
       {/* blog ends */}
       {/* timeline */}
-      <h1 class="timelineheading">Timeline</h1>
+      {/* <h1 class="timelineheading">Timeline</h1>
       <div class="container">
         <div class="main-timeline">
           <div class="container">
-            <div class="main-timeline">
-              {/* <!-- start experience section--> */}
-              <div class="timeline">
+            <div class="main-timeline"> */}
+      {/* <!-- start experience section--> */}
+      {/* <div class="timeline">
                 <div class="icon"></div>
                 <div class="date-content">
                   <div class="date-outer">
@@ -205,11 +228,11 @@ const Home = () => {
                     dapibus dolor felis, eu ultrices elit molestie.
                   </p>
                 </div>
-              </div>
-              {/* <!-- end experience section--> */}
+              </div> */}
+      {/* <!-- end experience section--> */}
 
-              {/* <!-- start experience section--> */}
-              <div class="timeline">
+      {/* <!-- start experience section--> */}
+      {/* <div class="timeline">
                 <div class="icon"></div>
                 <div class="date-content">
                   <div class="date-outer">
@@ -228,11 +251,11 @@ const Home = () => {
                     dapibus dolor felis, eu ultrices elit molestie.
                   </p>
                 </div>
-              </div>
-              {/* <!-- end experience section--> */}
+              </div> */}
+      {/* <!-- end experience section--> */}
 
-              {/* <!-- start experience section--> */}
-              <div class="timeline">
+      {/* <!-- start experience section--> */}
+      {/* <div class="timeline">
                 <div class="icon"></div>
                 <div class="date-content">
                   <div class="date-outer">
@@ -251,11 +274,11 @@ const Home = () => {
                     dapibus dolor felis, eu ultrices elit molestie.
                   </p>
                 </div>
-              </div>
-              {/* <!-- end experience section--> */}
+              </div> */}
+      {/* <!-- end experience section--> */}
 
-              {/* <!-- start experience section--> */}
-              <div class="timeline">
+      {/* <!-- start experience section--> */}
+      {/* <div class="timeline">
                 <div class="icon"></div>
                 <div class="date-content">
                   <div class="date-outer">
@@ -274,9 +297,9 @@ const Home = () => {
                     dapibus dolor felis, eu ultrices elit molestie.
                   </p>
                 </div>
-              </div>
-              {/* <!-- end experience section--> */}
-            </div>
+              </div> */}
+      {/* <!-- end experience section--> */}
+      {/* </div>
           </div>
           <div class="timeline">
             <div class="icon"></div>
@@ -297,11 +320,11 @@ const Home = () => {
                 dapibus dolor felis, eu ultrices elit molestie.
               </p>
             </div>
-          </div>
-          {/* <!-- end experience section--> */}
+          </div> */}
+      {/* <!-- end experience section--> */}
 
-          {/* <!-- start experience section--> */}
-          <div class="timeline">
+      {/* <!-- start experience section--> */}
+      {/* <div class="timeline">
             <div class="icon"></div>
             <div class="date-content">
               <div class="date-outer">
@@ -320,11 +343,11 @@ const Home = () => {
                 dapibus dolor felis, eu ultrices elit molestie.
               </p>
             </div>
-          </div>
-          {/* <!-- end experience section--> */}
+          </div> */}
+      {/* <!-- end experience section--> */}
 
-          {/* <!-- start experience section--> */}
-          <div class="timeline">
+      {/* <!-- start experience section--> */}
+      {/* <div class="timeline">
             <div class="icon"></div>
             <div class="date-content">
               <div class="date-outer">
@@ -343,11 +366,11 @@ const Home = () => {
                 dapibus dolor felis, eu ultrices elit molestie.
               </p>
             </div>
-          </div>
-          {/* <!-- end experience section--> */}
+          </div> */}
+      {/* <!-- end experience section--> */}
 
-          {/* <!-- start experience section--> */}
-          <div class="timeline">
+      {/* <!-- start experience section--> */}
+      {/* <div class="timeline">
             <div class="icon"></div>
             <div class="date-content">
               <div class="date-outer">
@@ -366,10 +389,10 @@ const Home = () => {
                 dapibus dolor felis, eu ultrices elit molestie.
               </p>
             </div>
-          </div>
-          {/* <!-- end experience section--> */}
-        </div>
-      </div>
+          </div> */}
+      {/* <!-- end experience section--> */}
+      {/* </div>
+      </div> */}
     </>
   );
 };

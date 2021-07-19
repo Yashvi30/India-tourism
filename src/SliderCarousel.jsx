@@ -10,7 +10,15 @@ import "swiper/components/pagination/pagination.scss";
 import "swiper/components/scrollbar/scrollbar.scss";
 
 //import images
-import Images from "../src/assets/image/img1.jpg";
+import Kolkata from "../src/assets/image/kolkata.jpeg";
+import Mussoorie from "../src/assets/image/mussoorie.jpeg";
+import Varanasi from "../src/assets/image/varanasi.jpeg";
+import Kanpur from "../src/assets/image/kanpur.jpeg";
+import Jaipur from "../src/assets/image/jaipur.jpeg";
+import Patiala from "../src/assets/image/patiala.jpeg";
+import Nasik from "../src/assets/image/nasik.jpeg";
+import Pune from "../src/assets/image/pune.jpeg";
+import Mumbai from "../src/assets/image/mumbai.jpeg";
 // install Swiper modules
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
@@ -29,7 +37,7 @@ const SliderCarousel = () => {
         >
           <SwiperSlide>
             <div>
-              <img src={Images} alt="..." />
+              <img src={Kolkata} alt="..." />
               <h2>Kolkata</h2>
               <h3>City of Joy</h3>
               <p>
@@ -40,7 +48,7 @@ const SliderCarousel = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img src={Images} alt="..." />
+              <img src={Mussoorie} alt="..." />
               <h2>Mussoorie</h2>
               <h3>Queen of the Mountains</h3>
               <p>
@@ -51,7 +59,7 @@ const SliderCarousel = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img src={Images} alt="..." />
+              <img src={Varanasi} alt="..." />
               <h2>Varanasi</h2>
               <h3>The City of Light</h3>
               <p>
@@ -64,7 +72,7 @@ const SliderCarousel = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img src={Images} alt="..." />
+              <img src={Kanpur} alt="..." />
               <h2>Kanpur</h2>
               <h3>Leather city of the World</h3>
               <p>
@@ -76,7 +84,7 @@ const SliderCarousel = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="swiperdiv">
-              <img src={Images} alt="..." />
+              <img src={Jaipur} alt="..." />
               <h2>Jaipur</h2>
               <h3> Pink City</h3>
               <p>
@@ -90,7 +98,7 @@ const SliderCarousel = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img src={Images} alt="..." />
+              <img src={Patiala} alt="..." />
               <h2>Patiala</h2>
               <h3>Royal City</h3>
               <p>
@@ -102,7 +110,7 @@ const SliderCarousel = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img src={Images} alt="..." />
+              <img src={Nasik} alt="..." />
               <h2>Nasik</h2>
               <h3>Wine capital of India</h3>
               <p>
@@ -113,7 +121,7 @@ const SliderCarousel = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img src={Images} alt="..." />
+              <img src={Pune} alt="..." />
               <h2>Pune</h2>
               <h3>Queen of Deccan</h3>
               <p>
@@ -124,7 +132,7 @@ const SliderCarousel = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img src={Images} alt="..." />
+              <img src={Mumbai} alt="..." />
               <h2>Mumbai</h2>
               <h3>Financial capital of India</h3>
               <p>
@@ -136,7 +144,7 @@ const SliderCarousel = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img src={Images} alt="..." />
+              <img src={Mussoorie} alt="..." />
               <h2>Bhopal</h2>
               <h3>City of Lakes</h3>
               <p>
@@ -147,7 +155,7 @@ const SliderCarousel = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img src={Images} alt="..." />
+              <img src={Jaipur} alt="..." />
               <h2> Kozhikode</h2>
               <h3>City of Spices</h3>
               <p>
@@ -158,7 +166,7 @@ const SliderCarousel = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img src={Images} alt="..." />
+              <img src={Patiala} alt="..." />
               <h2>Mangalore</h2>
               <h3>Ice Cream City of India</h3>
               <p>
@@ -169,7 +177,7 @@ const SliderCarousel = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img src={Images} alt="..." />
+              <img src={Kolkata} alt="..." />
               <h2>Bengaluru</h2>
               <h3> Silicon Valley of India</h3>
               <p>
@@ -181,7 +189,7 @@ const SliderCarousel = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img src={Images} alt="..." />
+              <img src={Pune} alt="..." />
               <h2>Kashmir</h2>
               <h3>Heaven on Earth</h3>
               <p>
@@ -193,7 +201,7 @@ const SliderCarousel = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img src={Images} alt="..." />
+              <img src={Mumbai} alt="..." />
               <h2>Nalanda</h2>
               <h3>The land of Knowledge</h3>
               <p>

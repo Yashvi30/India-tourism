@@ -89,7 +89,7 @@ section {
   text-align: center;
   background: rgba(0, 0, 0, 0.7);
   padding: 2rem;
-  padding-top: 5rem;
+  padding-top: 8rem;
 }
 
 .gallery .box-container .box:hover .content {
@@ -126,10 +126,10 @@ section {
   flex-direction: column;
 }
 .swiper-slide h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .swiper-slide p {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 /* blogs */
 .blogheading {
